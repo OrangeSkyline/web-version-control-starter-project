@@ -1,0 +1,11 @@
+.moving-text{
+    position: absolute;
+    white-space: nowrap;
+    -webkit-animation: leftToRight 10s linear infinite;   
+}
+
+@-webkit-keyframes leftToRight {
+    0%   { left: 0%; }
+    50%  { left: 100%; }
+    100% { left: 0%; }
+}
